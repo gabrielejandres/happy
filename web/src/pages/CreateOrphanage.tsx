@@ -67,7 +67,7 @@ export default function CreateOrphanage() {
       data.append('images', image);
     })
 
-    await api.post('orphanages', data);
+    await api.post('/orphanages', data);
 
     alert('Cadastro realizado!');
 
